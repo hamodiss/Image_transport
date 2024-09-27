@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/momo/image_transport/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/momo/image_transport/build/image_publisher_subscriber -- -j8 -l8
+[0.146s] [35m[1mScanning dependencies of target pub_node[0m
+[0.175s] [ 50%] Built target sub_node
+[0.215s] [ 75%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[5.669s] [100%] [32m[1mLinking CXX executable pub_node[0m
+[6.247s] [100%] Built target pub_node
+[6.272s] Invoked command in '/home/momo/image_transport/build/image_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/momo/image_transport/build/image_publisher_subscriber -- -j8 -l8
+[6.385s] Invoking command in '/home/momo/image_transport/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/momo/image_transport/build/image_publisher_subscriber
+[6.409s] -- Install configuration: ""
+[6.410s] -- Installing: /home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node
+[6.413s] -- Set runtime path of "/home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""
+[6.414s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/sub_node
+[6.414s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber
+[6.415s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber
+[6.415s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.sh
+[6.416s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.dsv
+[6.416s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.sh
+[6.416s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.dsv
+[6.417s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.bash
+[6.417s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.sh
+[6.417s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.zsh
+[6.418s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.dsv
+[6.419s] -- Installing: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.dsv
+[6.419s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/packages/image_publisher_subscriber
+[6.420s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig.cmake
+[6.420s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig-version.cmake
+[6.420s] -- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.xml
+[6.425s] Invoked command in '/home/momo/image_transport/build/image_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/momo/image_transport/build/image_publisher_subscriber

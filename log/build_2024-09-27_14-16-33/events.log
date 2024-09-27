@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (image_publisher_subscriber) JobQueued: {'identifier': 'image_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.000634] (image_publisher_subscriber) JobStarted: {'identifier': 'image_publisher_subscriber'}
+[0.016288] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'cmake'}
+[0.018532] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'build'}
+[0.020169] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/momo/image_transport/build/image_publisher_subscriber', '--', '-j8', '-l8'], 'cwd': '/home/momo/image_transport/build/image_publisher_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '9898'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/image_transport'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '9760'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/image_transport/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:40343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/9968,unix/momo-VirtualBox:/tmp/.ICE-unix/9968'), ('INVOCATION_ID', 'd20c9f8c524c425cb85350b2baf4a4b9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/033d3a78_cd38_4223_8a39_9742b79f3e78'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/image_transport/install/image_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/image_transport/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/momo/image_transport/install/image_publisher_subscriber:/opt/ros/foxy')]), 'shell': False}
+[0.099299] (-) TimerEvent: {}
+[0.158010] (image_publisher_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_node\x1b[0m\n'}
+[0.199600] (-) TimerEvent: {}
+[0.215590] (image_publisher_subscriber) StdoutLine: {'line': b'[ 50%] Built target sub_node\n'}
+[0.237327] (image_publisher_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o\x1b[0m\n'}
+[0.301244] (-) TimerEvent: {}
+[0.401865] (-) TimerEvent: {}
+[0.503222] (-) TimerEvent: {}
+[0.604801] (-) TimerEvent: {}
+[0.706306] (-) TimerEvent: {}
+[0.807475] (-) TimerEvent: {}
+[0.908740] (-) TimerEvent: {}
+[1.010504] (-) TimerEvent: {}
+[1.111181] (-) TimerEvent: {}
+[1.212387] (-) TimerEvent: {}
+[1.312965] (-) TimerEvent: {}
+[1.414454] (-) TimerEvent: {}
+[1.515054] (-) TimerEvent: {}
+[1.616490] (-) TimerEvent: {}
+[1.717255] (-) TimerEvent: {}
+[1.818577] (-) TimerEvent: {}
+[1.919273] (-) TimerEvent: {}
+[2.020286] (-) TimerEvent: {}
+[2.120940] (-) TimerEvent: {}
+[2.221665] (-) TimerEvent: {}
+[2.322743] (-) TimerEvent: {}
+[2.424230] (-) TimerEvent: {}
+[2.524932] (-) TimerEvent: {}
+[2.625669] (-) TimerEvent: {}
+[2.726897] (-) TimerEvent: {}
+[2.827380] (-) TimerEvent: {}
+[2.928216] (-) TimerEvent: {}
+[3.029342] (-) TimerEvent: {}
+[3.130259] (-) TimerEvent: {}
+[3.231347] (-) TimerEvent: {}
+[3.332405] (-) TimerEvent: {}
+[3.433393] (-) TimerEvent: {}
+[3.534342] (-) TimerEvent: {}
+[3.635429] (-) TimerEvent: {}
+[3.736598] (-) TimerEvent: {}
+[3.837658] (-) TimerEvent: {}
+[3.939618] (-) TimerEvent: {}
+[4.041701] (-) TimerEvent: {}
+[4.142650] (-) TimerEvent: {}
+[4.243754] (-) TimerEvent: {}
+[4.345206] (-) TimerEvent: {}
+[4.445736] (-) TimerEvent: {}
+[4.547045] (-) TimerEvent: {}
+[4.648209] (-) TimerEvent: {}
+[4.749211] (-) TimerEvent: {}
+[4.849849] (-) TimerEvent: {}
+[4.951160] (-) TimerEvent: {}
+[5.052850] (-) TimerEvent: {}
+[5.154617] (-) TimerEvent: {}
+[5.255921] (-) TimerEvent: {}
+[5.357287] (-) TimerEvent: {}
+[5.459468] (-) TimerEvent: {}
+[5.562293] (-) TimerEvent: {}
+[5.664335] (-) TimerEvent: {}
+[5.765319] (-) TimerEvent: {}
+[5.770684] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_node\x1b[0m\n'}
+[5.865848] (-) TimerEvent: {}
+[5.966377] (-) TimerEvent: {}
+[6.066945] (-) TimerEvent: {}
+[6.168539] (-) TimerEvent: {}
+[6.269075] (-) TimerEvent: {}
+[6.370591] (-) TimerEvent: {}
+[6.427876] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] Built target pub_node\n'}
+[6.452996] (image_publisher_subscriber) CommandEnded: {'returncode': 0}
+[6.471264] (-) TimerEvent: {}
+[6.507708] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'install'}
+[6.537925] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/momo/image_transport/build/image_publisher_subscriber'], 'cwd': '/home/momo/image_transport/build/image_publisher_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'momo'), ('LC_TIME', 'sv_SE.UTF-8'), ('SSH_AGENT_PID', '9898'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/momo'), ('OLDPWD', '/home/momo/image_transport'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('MANAGERPID', '9760'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/momo/image_transport/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'momo'), ('JOURNAL_STREAM', '8:40343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'momo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/momo-VirtualBox:@/tmp/.ICE-unix/9968,unix/momo-VirtualBox:/tmp/.ICE-unix/9968'), ('INVOCATION_ID', 'd20c9f8c524c425cb85350b2baf4a4b9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/033d3a78_cd38_4223_8a39_9742b79f3e78'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/momo/image_transport/install/image_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/momo/image_transport/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/momo/image_transport/install/image_publisher_subscriber:/opt/ros/foxy')]), 'shell': False}
+[6.554653] (image_publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.555425] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node\n'}
+[6.556438] (image_publisher_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""\n'}
+[6.557605] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/sub_node\n'}
+[6.558162] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber\n'}
+[6.558650] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber\n'}
+[6.559382] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.sh\n'}
+[6.560148] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.dsv\n'}
+[6.560405] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.sh\n'}
+[6.560583] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.dsv\n'}
+[6.560737] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.bash\n'}
+[6.560865] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.sh\n'}
+[6.561044] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.zsh\n'}
+[6.561212] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.dsv\n'}
+[6.561339] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.dsv\n'}
+[6.561484] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/packages/image_publisher_subscriber\n'}
+[6.561615] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig.cmake\n'}
+[6.561765] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig-version.cmake\n'}
+[6.562000] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /home/momo/image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.xml\n'}
+[6.563506] (image_publisher_subscriber) CommandEnded: {'returncode': 0}
+[6.572528] (-) TimerEvent: {}
+[6.666269] (image_publisher_subscriber) JobEnded: {'identifier': 'image_publisher_subscriber', 'rc': 0}
+[6.668091] (-) EventReactorShutdown: {}
