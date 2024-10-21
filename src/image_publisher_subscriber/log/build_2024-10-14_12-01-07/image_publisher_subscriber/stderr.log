@@ -1,0 +1,7 @@
+[01m[K/root/Image_transport/src/image_publisher_subscriber/src/sub_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kyolov8/yolov8.hpp: No such file or directory
+    5 | #include [01;31m[K<yolov8/yolov8.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber -- -j8 -l8
+[0.149s] [35m[1mScanning dependencies of target pub_node[0m
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[5.653s] [100%] [32m[1mLinking CXX executable pub_node[0m
+[6.325s] [100%] Built target pub_node
+[6.364s] Invoked command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber -- -j8 -l8
+[6.490s] Invoking command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber
+[6.497s] -- Install configuration: ""
+[6.497s] -- Installing: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node
+[6.499s] -- Set runtime path of "/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""
+[6.500s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.sh
+[6.500s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.dsv
+[6.500s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber
+[6.500s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/__init__.py
+[6.501s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/sub_node.py
+[6.562s] Listing '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber'...
+[6.568s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/sub_node.py
+[6.569s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber
+[6.569s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber
+[6.570s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.sh
+[6.570s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.dsv
+[6.571s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.sh
+[6.571s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.dsv
+[6.572s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.bash
+[6.572s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.sh
+[6.572s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.zsh
+[6.573s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.dsv
+[6.573s] -- Installing: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/package.dsv
+[6.573s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/ament_index/resource_index/packages/image_publisher_subscriber
+[6.574s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig.cmake
+[6.574s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig-version.cmake
+[6.574s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/package.xml
+[6.582s] Invoked command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber

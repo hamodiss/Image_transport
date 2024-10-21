@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target sub_node[0m
+[ 50%] Built target pub_node
+[ 75%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o[0m
+[01m[K/root/Image_transport/src/image_publisher_subscriber/src/sub_node.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kyolov8_msgs/msg/inference_result.hpp: No such file or directory
+   12 | #include [01;31m[K"yolov8_msgs/msg/inference_result.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

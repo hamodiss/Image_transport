@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000936] (image_publisher_subscriber) JobQueued: {'identifier': 'image_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.001167] (image_publisher_subscriber) JobStarted: {'identifier': 'image_publisher_subscriber'}
+[0.019478] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'cmake'}
+[0.020785] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'build'}
+[0.026478] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber', '--', '-j8', '-l8'], 'cwd': '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'd6fb103f30db'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Image_transport/src/image_publisher_subscriber/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy')]), 'shell': False}
+[0.099366] (-) TimerEvent: {}
+[0.161271] (image_publisher_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_node\x1b[0m\n'}
+[0.200047] (-) TimerEvent: {}
+[0.290801] (image_publisher_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o\x1b[0m\n'}
+[0.301239] (-) TimerEvent: {}
+[0.402371] (-) TimerEvent: {}
+[0.504965] (-) TimerEvent: {}
+[0.608162] (-) TimerEvent: {}
+[0.710888] (-) TimerEvent: {}
+[0.812922] (-) TimerEvent: {}
+[0.914985] (-) TimerEvent: {}
+[1.017409] (-) TimerEvent: {}
+[1.118958] (-) TimerEvent: {}
+[1.220221] (-) TimerEvent: {}
+[1.321870] (-) TimerEvent: {}
+[1.422955] (-) TimerEvent: {}
+[1.525480] (-) TimerEvent: {}
+[1.626802] (-) TimerEvent: {}
+[1.728111] (-) TimerEvent: {}
+[1.829000] (-) TimerEvent: {}
+[1.931077] (-) TimerEvent: {}
+[2.033151] (-) TimerEvent: {}
+[2.135104] (-) TimerEvent: {}
+[2.238106] (-) TimerEvent: {}
+[2.340143] (-) TimerEvent: {}
+[2.442158] (-) TimerEvent: {}
+[2.543297] (-) TimerEvent: {}
+[2.645196] (-) TimerEvent: {}
+[2.746287] (-) TimerEvent: {}
+[2.849308] (-) TimerEvent: {}
+[2.950332] (-) TimerEvent: {}
+[3.050974] (-) TimerEvent: {}
+[3.153319] (-) TimerEvent: {}
+[3.255844] (-) TimerEvent: {}
+[3.358294] (-) TimerEvent: {}
+[3.458919] (-) TimerEvent: {}
+[3.561782] (-) TimerEvent: {}
+[3.662850] (-) TimerEvent: {}
+[3.764874] (-) TimerEvent: {}
+[3.865845] (-) TimerEvent: {}
+[3.967436] (-) TimerEvent: {}
+[4.069893] (-) TimerEvent: {}
+[4.172453] (-) TimerEvent: {}
+[4.274337] (-) TimerEvent: {}
+[4.377771] (-) TimerEvent: {}
+[4.479312] (-) TimerEvent: {}
+[4.582360] (-) TimerEvent: {}
+[4.685834] (-) TimerEvent: {}
+[4.787403] (-) TimerEvent: {}
+[4.890839] (-) TimerEvent: {}
+[4.992176] (-) TimerEvent: {}
+[5.094801] (-) TimerEvent: {}
+[5.195752] (-) TimerEvent: {}
+[5.297240] (-) TimerEvent: {}
+[5.399368] (-) TimerEvent: {}
+[5.501947] (-) TimerEvent: {}
+[5.602578] (-) TimerEvent: {}
+[5.704939] (-) TimerEvent: {}
+[5.805477] (-) TimerEvent: {}
+[5.908151] (-) TimerEvent: {}
+[5.956205] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_node\x1b[0m\n'}
+[6.008443] (-) TimerEvent: {}
+[6.110906] (-) TimerEvent: {}
+[6.211741] (-) TimerEvent: {}
+[6.312909] (-) TimerEvent: {}
+[6.414494] (-) TimerEvent: {}
+[6.516108] (-) TimerEvent: {}
+[6.608792] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] Built target pub_node\n'}
+[6.617247] (-) TimerEvent: {}
+[6.628633] (image_publisher_subscriber) CommandEnded: {'returncode': 0}
+[6.702559] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'install'}
+[6.717596] (-) TimerEvent: {}
+[6.739146] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber'], 'cwd': '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'd6fb103f30db'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Image_transport/src/image_publisher_subscriber/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy')]), 'shell': False}
+[6.766287] (image_publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.767049] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node\n'}
+[6.769981] (image_publisher_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""\n'}
+[6.770623] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.sh\n'}
+[6.770938] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.dsv\n'}
+[6.771292] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber\n'}
+[6.771584] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/__init__.py\n'}
+[6.771881] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/sub_node.py\n'}
+[6.818155] (-) TimerEvent: {}
+[6.841258] (image_publisher_subscriber) StdoutLine: {'line': b"Listing '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber'...\n"}
+[6.847293] (image_publisher_subscriber) StderrLine: {'line': b'CMake Error at cmake_install.cmake:81 (file):\n'}
+[6.847814] (image_publisher_subscriber) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[6.848291] (image_publisher_subscriber) StderrLine: {'line': b'  "/root/Image_transport/src/image_publisher_subscriber/src/sub_node.py": No\n'}
+[6.848603] (image_publisher_subscriber) StderrLine: {'line': b'  such file or directory.\n'}
+[6.848884] (image_publisher_subscriber) StderrLine: {'line': b'\n'}
+[6.849200] (image_publisher_subscriber) StderrLine: {'line': b'\n'}
+[6.852639] (image_publisher_subscriber) CommandEnded: {'returncode': 1}
+[6.918861] (-) TimerEvent: {}
+[6.967999] (image_publisher_subscriber) JobEnded: {'identifier': 'image_publisher_subscriber', 'rc': 1}
+[6.979395] (-) EventReactorShutdown: {}

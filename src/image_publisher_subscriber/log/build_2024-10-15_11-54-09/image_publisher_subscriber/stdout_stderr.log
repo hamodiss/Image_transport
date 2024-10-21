@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target pub_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub_node[0m
+[100%] Built target pub_node
+-- Install configuration: ""
+-- Installing: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node
+-- Set runtime path of "/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""
+-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.sh
+-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.dsv
+-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber
+-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/__init__.py
+-- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/sub_node.py
+Listing '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber'...
+CMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/root/Image_transport/src/image_publisher_subscriber/src/sub_node.py": No
+  such file or directory.
+
+

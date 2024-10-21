@@ -1,0 +1,7 @@
+[01m[K/root/Image_transport/src/image_publisher_subscriber/src/sub_node.cpp:[m[K In constructor ‘[01m[KYoloBridgeSubscriber::YoloBridgeSubscriber()[m[K’:
+[01m[K/root/Image_transport/src/image_publisher_subscriber/src/sub_node.cpp:20:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kchdir[m[K’ was not declared in this scope
+   20 |  [01;31m[Kchdir[m[K("/root/Image_transport/src/image_publisher_subscriber/src/");
+      |  [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/sub_node.dir/build.make:63: CMakeFiles/sub_node.dir/src/sub_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sub_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

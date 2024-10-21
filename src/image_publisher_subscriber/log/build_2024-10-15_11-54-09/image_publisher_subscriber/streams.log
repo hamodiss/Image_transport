@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber -- -j8 -l8
+[0.160s] [35m[1mScanning dependencies of target pub_node[0m
+[0.290s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o[0m
+[5.955s] [100%] [32m[1mLinking CXX executable pub_node[0m
+[6.608s] [100%] Built target pub_node
+[6.629s] Invoked command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber -- -j8 -l8
+[6.740s] Invoking command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber
+[6.765s] -- Install configuration: ""
+[6.766s] -- Installing: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node
+[6.769s] -- Set runtime path of "/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""
+[6.770s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.sh
+[6.770s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/pythonpath.dsv
+[6.770s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber
+[6.771s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/__init__.py
+[6.771s] -- Up-to-date: /root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber/sub_node.py
+[6.840s] Listing '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages/image_publisher_subscriber'...
+[6.846s] CMake Error at cmake_install.cmake:81 (file):
+[6.847s]   file INSTALL cannot find
+[6.847s]   "/root/Image_transport/src/image_publisher_subscriber/src/sub_node.py": No
+[6.848s]   such file or directory.
+[6.848s] 
+[6.848s] 
+[6.852s] Invoked command in '/root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/Image_transport/src/image_publisher_subscriber/build/image_publisher_subscriber

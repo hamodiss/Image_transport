@@ -1,0 +1,11 @@
+source;share/image_publisher_subscriber/hook/cmake_prefix_path.ps1
+source;share/image_publisher_subscriber/hook/cmake_prefix_path.dsv
+source;share/image_publisher_subscriber/hook/cmake_prefix_path.sh
+source;share/image_publisher_subscriber/hook/pythonpath.ps1
+source;share/image_publisher_subscriber/hook/pythonpath.dsv
+source;share/image_publisher_subscriber/hook/pythonpath.sh
+source;share/image_publisher_subscriber/local_setup.bash
+source;share/image_publisher_subscriber/local_setup.dsv
+source;share/image_publisher_subscriber/local_setup.ps1
+source;share/image_publisher_subscriber/local_setup.sh
+source;share/image_publisher_subscriber/local_setup.zsh
