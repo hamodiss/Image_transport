@@ -1,0 +1,3 @@
+[console_scripts]
+sub_node = yolo_image_subscriber.sub_node:main
+
