@@ -17,13 +17,7 @@ install(TARGETS
   pub_node
   DESTINATION lib/${PROJECT_NAME})
 
-# Hantera Python-noden (notera att Python-filerna finns i 'src')
-ament_python_install_package(${PROJECT_NAME})
 
-# Installera Python-skriptet
-install(PROGRAMS
-  src/sub_node.py  # Python subscriber-nod
-  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
 

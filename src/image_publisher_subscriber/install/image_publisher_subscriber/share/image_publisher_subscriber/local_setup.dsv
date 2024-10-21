@@ -1,3 +1,2 @@
 source;share/image_publisher_subscriber/environment/ament_prefix_path.sh
 source;share/image_publisher_subscriber/environment/path.sh
-source;share/image_publisher_subscriber/environment/pythonpath.sh
