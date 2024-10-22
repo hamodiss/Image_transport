@@ -1,0 +1,6 @@
+[0.032s] Invoking command in '/root/Image_transport/build/image_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/build/image_publisher_subscriber -- -j8 -l8
+[0.056s] CMake Error: The current CMakeCache.txt directory /root/Image_transport/build/image_publisher_subscriber/CMakeCache.txt is different than the directory /home/momo/image_transport/build/image_publisher_subscriber where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.091s] CMake Error: The source directory "/home/momo/image_transport/src/image_publisher_subscriber" does not exist.
+[0.091s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.094s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.099s] Invoked command in '/root/Image_transport/build/image_publisher_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/Image_transport/build/image_publisher_subscriber -- -j8 -l8

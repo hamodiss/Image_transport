@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.001220] (image_publisher_subscriber) JobQueued: {'identifier': 'image_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.001703] (yolo_image_subscriber) JobQueued: {'identifier': 'yolo_image_subscriber', 'dependencies': OrderedDict()}
+[0.001919] (image_publisher_subscriber) JobStarted: {'identifier': 'image_publisher_subscriber'}
+[0.017681] (yolo_image_subscriber) JobStarted: {'identifier': 'yolo_image_subscriber'}
+[0.031784] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'cmake'}
+[0.034363] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'build'}
+[0.036375] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Image_transport/build/image_publisher_subscriber', '--', '-j8', '-l8'], 'cwd': '/root/Image_transport/build/image_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'd6fb103f30db'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Image_transport/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Image_transport/src/yolo_image_subscriber/install:/root/Image_transport/src/image_publisher_subscriber/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Image_transport/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber/lib/python3.8/site-packages:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber:/opt/ros/foxy')]), 'shell': False}
+[0.099714] (-) TimerEvent: {}
+[0.108087] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.140436] (image_publisher_subscriber) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.201725] (-) TimerEvent: {}
+[0.304256] (-) TimerEvent: {}
+[0.405747] (-) TimerEvent: {}
+[0.437450] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.493775] (image_publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498822] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.506216] (-) TimerEvent: {}
+[0.608331] (-) TimerEvent: {}
+[0.710458] (-) TimerEvent: {}
+[0.716851] (image_publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.797103] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.799360] (image_publisher_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.811385] (-) TimerEvent: {}
+[0.912957] (-) TimerEvent: {}
+[1.015335] (-) TimerEvent: {}
+[1.070345] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.109217] (yolo_image_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_image_subscriber', 'build', '--build-base', '/root/Image_transport/build/yolo_image_subscriber/build', 'install', '--record', '/root/Image_transport/build/yolo_image_subscriber/install.log', '--install-scripts', '$base/lib/yolo_image_subscriber', '--single-version-externally-managed'], 'cwd': '/root/Image_transport/src/yolo_image_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'd6fb103f30db', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/Image_transport/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/Image_transport/src/yolo_image_subscriber/install:/root/Image_transport/src/image_publisher_subscriber/install', 'ROS_DISTRO': 'foxy', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/Image_transport/build/yolo_image_subscriber', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/Image_transport/build/yolo_image_subscriber/prefix_override:/usr/local/lib/python3.8/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages:/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber/lib/python3.8/site-packages:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber'}, 'shell': False}
+[1.115602] (-) TimerEvent: {}
+[1.216235] (-) TimerEvent: {}
+[1.257773] (image_publisher_subscriber) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.317172] (-) TimerEvent: {}
+[1.418310] (-) TimerEvent: {}
+[1.423127] (yolo_image_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[1.423810] (yolo_image_subscriber) StdoutLine: {'line': b'creating ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info\n'}
+[1.424263] (yolo_image_subscriber) StdoutLine: {'line': b'writing ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/PKG-INFO\n'}
+[1.424853] (yolo_image_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/dependency_links.txt\n'}
+[1.425297] (yolo_image_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/entry_points.txt\n'}
+[1.425625] (yolo_image_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/requires.txt\n'}
+[1.426052] (yolo_image_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/top_level.txt\n'}
+[1.426674] (yolo_image_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'\n"}
+[1.460582] (image_publisher_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.482201] (yolo_image_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'\n"}
+[1.483312] (yolo_image_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'\n"}
+[1.483618] (yolo_image_subscriber) StdoutLine: {'line': b'running build\n'}
+[1.483819] (yolo_image_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[1.484486] (yolo_image_subscriber) StdoutLine: {'line': b'creating /root/Image_transport/build/yolo_image_subscriber/build\n'}
+[1.484832] (yolo_image_subscriber) StdoutLine: {'line': b'creating /root/Image_transport/build/yolo_image_subscriber/build/lib\n'}
+[1.485202] (yolo_image_subscriber) StdoutLine: {'line': b'creating /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber\n'}
+[1.485685] (yolo_image_subscriber) StdoutLine: {'line': b'copying yolo_image_subscriber/warning_script.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber\n'}
+[1.485957] (yolo_image_subscriber) StdoutLine: {'line': b'copying yolo_image_subscriber/__init__.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber\n'}
+[1.486452] (yolo_image_subscriber) StdoutLine: {'line': b'copying yolo_image_subscriber/sub_node.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber\n'}
+[1.487151] (yolo_image_subscriber) StdoutLine: {'line': b'running install\n'}
+[1.487335] (yolo_image_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[1.487489] (yolo_image_subscriber) StdoutLine: {'line': b'creating /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber\n'}
+[1.487667] (yolo_image_subscriber) StdoutLine: {'line': b'copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/warning_script.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber\n'}
+[1.487995] (yolo_image_subscriber) StdoutLine: {'line': b'copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/__init__.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber\n'}
+[1.488330] (yolo_image_subscriber) StdoutLine: {'line': b'copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/sub_node.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber\n'}
+[1.488921] (yolo_image_subscriber) StdoutLine: {'line': b'byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/warning_script.py to warning_script.cpython-38.pyc\n'}
+[1.489461] (yolo_image_subscriber) StdoutLine: {'line': b'byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/__init__.py to __init__.cpython-38.pyc\n'}
+[1.489870] (yolo_image_subscriber) StdoutLine: {'line': b'byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/sub_node.py to sub_node.cpython-38.pyc\n'}
+[1.491763] (yolo_image_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.493896] (yolo_image_subscriber) StdoutLine: {'line': b'Copying ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info to /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber-0.0.0-py3.8.egg-info\n'}
+[1.495150] (yolo_image_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[1.498682] (image_publisher_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[1.501023] (image_publisher_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /root/Image_transport/build/image_publisher_subscriber\n'}
+[1.519185] (-) TimerEvent: {}
+[1.520289] (yolo_image_subscriber) StdoutLine: {'line': b'Installing sub_node script to /root/Image_transport/install/yolo_image_subscriber/lib/yolo_image_subscriber\n'}
+[1.520734] (yolo_image_subscriber) StdoutLine: {'line': b"writing list of installed files to '/root/Image_transport/build/yolo_image_subscriber/install.log'\n"}
+[1.553109] (yolo_image_subscriber) CommandEnded: {'returncode': 0}
+[1.575107] (yolo_image_subscriber) JobEnded: {'identifier': 'yolo_image_subscriber', 'rc': 0}
+[1.585200] (image_publisher_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_node\x1b[0m\n'}
+[1.619519] (-) TimerEvent: {}
+[1.658164] (image_publisher_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o\x1b[0m\n'}
+[1.720282] (-) TimerEvent: {}
+[1.822460] (-) TimerEvent: {}
+[1.923262] (-) TimerEvent: {}
+[2.024080] (-) TimerEvent: {}
+[2.125471] (-) TimerEvent: {}
+[2.226000] (-) TimerEvent: {}
+[2.327426] (-) TimerEvent: {}
+[2.428984] (-) TimerEvent: {}
+[2.531458] (-) TimerEvent: {}
+[2.633991] (-) TimerEvent: {}
+[2.735412] (-) TimerEvent: {}
+[2.837942] (-) TimerEvent: {}
+[2.939159] (-) TimerEvent: {}
+[3.050729] (-) TimerEvent: {}
+[3.151742] (-) TimerEvent: {}
+[3.253902] (-) TimerEvent: {}
+[3.355952] (-) TimerEvent: {}
+[3.457806] (-) TimerEvent: {}
+[3.558473] (-) TimerEvent: {}
+[3.660791] (-) TimerEvent: {}
+[3.763304] (-) TimerEvent: {}
+[3.864965] (-) TimerEvent: {}
+[3.966314] (-) TimerEvent: {}
+[4.067927] (-) TimerEvent: {}
+[4.169363] (-) TimerEvent: {}
+[4.272278] (-) TimerEvent: {}
+[4.374952] (-) TimerEvent: {}
+[4.476490] (-) TimerEvent: {}
+[4.578393] (-) TimerEvent: {}
+[4.680357] (-) TimerEvent: {}
+[4.782067] (-) TimerEvent: {}
+[4.883517] (-) TimerEvent: {}
+[4.984809] (-) TimerEvent: {}
+[5.085470] (-) TimerEvent: {}
+[5.188025] (-) TimerEvent: {}
+[5.291336] (-) TimerEvent: {}
+[5.392803] (-) TimerEvent: {}
+[5.495366] (-) TimerEvent: {}
+[5.598794] (-) TimerEvent: {}
+[5.700310] (-) TimerEvent: {}
+[5.801811] (-) TimerEvent: {}
+[5.903275] (-) TimerEvent: {}
+[6.005258] (-) TimerEvent: {}
+[6.107272] (-) TimerEvent: {}
+[6.208251] (-) TimerEvent: {}
+[6.310425] (-) TimerEvent: {}
+[6.412754] (-) TimerEvent: {}
+[6.515297] (-) TimerEvent: {}
+[6.617747] (-) TimerEvent: {}
+[6.720476] (-) TimerEvent: {}
+[6.822791] (-) TimerEvent: {}
+[6.924251] (-) TimerEvent: {}
+[7.026343] (-) TimerEvent: {}
+[7.127866] (-) TimerEvent: {}
+[7.229335] (-) TimerEvent: {}
+[7.236209] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_node\x1b[0m\n'}
+[7.330057] (-) TimerEvent: {}
+[7.431404] (-) TimerEvent: {}
+[7.533451] (-) TimerEvent: {}
+[7.635598] (-) TimerEvent: {}
+[7.737485] (-) TimerEvent: {}
+[7.840437] (-) TimerEvent: {}
+[7.871710] (image_publisher_subscriber) StdoutLine: {'line': b'[100%] Built target pub_node\n'}
+[7.913521] (image_publisher_subscriber) CommandEnded: {'returncode': 0}
+[7.941412] (-) TimerEvent: {}
+[7.993432] (image_publisher_subscriber) JobProgress: {'identifier': 'image_publisher_subscriber', 'progress': 'install'}
+[8.032095] (image_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Image_transport/build/image_publisher_subscriber'], 'cwd': '/root/Image_transport/build/image_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'd6fb103f30db'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/Image_transport/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Image_transport/src/yolo_image_subscriber/install:/root/Image_transport/src/image_publisher_subscriber/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/Image_transport/build/image_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber/lib/python3.8/site-packages:/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Image_transport/src/image_publisher_subscriber/install/image_publisher_subscriber:/root/Image_transport/src/yolo_image_subscriber/install/yolo_image_subscriber:/opt/ros/foxy')]), 'shell': False}
+[8.041861] (-) TimerEvent: {}
+[8.062574] (image_publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.063165] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node\n'}
+[8.066020] (image_publisher_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/root/Image_transport/install/image_publisher_subscriber/lib/image_publisher_subscriber/pub_node" to ""\n'}
+[8.066476] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber\n'}
+[8.067422] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber\n'}
+[8.068270] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.sh\n'}
+[8.068602] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/ament_prefix_path.dsv\n'}
+[8.069456] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.sh\n'}
+[8.069763] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/environment/path.dsv\n'}
+[8.070835] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.bash\n'}
+[8.071213] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.sh\n'}
+[8.071498] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.zsh\n'}
+[8.071782] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/local_setup.dsv\n'}
+[8.071911] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.dsv\n'}
+[8.072196] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/ament_index/resource_index/packages/image_publisher_subscriber\n'}
+[8.072409] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig.cmake\n'}
+[8.072583] (image_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/cmake/image_publisher_subscriberConfig-version.cmake\n'}
+[8.072762] (image_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /root/Image_transport/install/image_publisher_subscriber/share/image_publisher_subscriber/package.xml\n'}
+[8.075858] (image_publisher_subscriber) CommandEnded: {'returncode': 0}
+[8.142442] (-) TimerEvent: {}
+[8.170753] (image_publisher_subscriber) JobEnded: {'identifier': 'image_publisher_subscriber', 'rc': 0}
+[8.173998] (-) EventReactorShutdown: {}

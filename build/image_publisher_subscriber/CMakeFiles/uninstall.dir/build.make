@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/momo/image_transport/src/image_publisher_subscriber
+CMAKE_SOURCE_DIR = /root/Image_transport/src/image_publisher_subscriber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/momo/image_transport/build/image_publisher_subscriber
+CMAKE_BINARY_DIR = /root/Image_transport/build/image_publisher_subscriber
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/momo/image_transport/build/image_publisher_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/momo/image_transport/src/image_publisher_subscriber /home/momo/image_transport/src/image_publisher_subscriber /home/momo/image_transport/build/image_publisher_subscriber /home/momo/image_transport/build/image_publisher_subscriber /home/momo/image_transport/build/image_publisher_subscriber/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Image_transport/build/image_publisher_subscriber && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Image_transport/src/image_publisher_subscriber /root/Image_transport/src/image_publisher_subscriber /root/Image_transport/build/image_publisher_subscriber /root/Image_transport/build/image_publisher_subscriber /root/Image_transport/build/image_publisher_subscriber/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

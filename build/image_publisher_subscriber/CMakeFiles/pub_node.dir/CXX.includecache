@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/momo/image_transport/src/image_publisher_subscriber/src/pub_node.cpp
-rclcpp/rclcpp.hpp
--
-sensor_msgs/msg/image.hpp
--
-cv_bridge/cv_bridge.h
--
-opencv2/opencv.hpp
--
-
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/duration__struct.hpp
@@ -4269,6 +4259,16 @@ tracetools/visibility_control.hpp
 /opt/ros/foxy/include/tracetools/tracetools/visibility_control.hpp
 
 /opt/ros/foxy/include/tracetools/visibility_control.hpp
+
+/root/Image_transport/src/image_publisher_subscriber/src/pub_node.cpp
+rclcpp/rclcpp.hpp
+-
+sensor_msgs/msg/image.hpp
+-
+cv_bridge/cv_bridge.h
+-
+opencv2/opencv.hpp
+-
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/momo/image_transport/src/image_publisher_subscriber/src/sub_node.cpp" "/home/momo/image_transport/build/image_publisher_subscriber/CMakeFiles/sub_node.dir/src/sub_node.cpp.o"
+  "/root/Image_transport/src/image_publisher_subscriber/src/sub_node.cpp" "/root/Image_transport/build/image_publisher_subscriber/CMakeFiles/sub_node.dir/src/sub_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/momo/image_transport/src/image_publisher_subscriber/include"
+  "/root/Image_transport/src/image_publisher_subscriber/include"
   "/opt/ros/foxy/include"
   "/usr/include/opencv4"
   )

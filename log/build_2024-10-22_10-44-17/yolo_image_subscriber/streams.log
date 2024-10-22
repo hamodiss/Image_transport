@@ -1,0 +1,34 @@
+[1.097s] Invoking command in '/root/Image_transport/src/yolo_image_subscriber': PYTHONPATH=/root/Image_transport/build/yolo_image_subscriber/prefix_override:/usr/local/lib/python3.8/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolo_image_subscriber build --build-base /root/Image_transport/build/yolo_image_subscriber/build install --record /root/Image_transport/build/yolo_image_subscriber/install.log --install-scripts $base/lib/yolo_image_subscriber --single-version-externally-managed
+[1.406s] running egg_info
+[1.406s] creating ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info
+[1.407s] writing ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/PKG-INFO
+[1.407s] writing dependency_links to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/dependency_links.txt
+[1.408s] writing entry points to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/entry_points.txt
+[1.408s] writing requirements to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/requires.txt
+[1.409s] writing top-level names to ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/top_level.txt
+[1.409s] writing manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'
+[1.465s] reading manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'
+[1.466s] writing manifest file '../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info/SOURCES.txt'
+[1.466s] running build
+[1.466s] running build_py
+[1.467s] creating /root/Image_transport/build/yolo_image_subscriber/build
+[1.467s] creating /root/Image_transport/build/yolo_image_subscriber/build/lib
+[1.468s] creating /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber
+[1.468s] copying yolo_image_subscriber/warning_script.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber
+[1.468s] copying yolo_image_subscriber/__init__.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber
+[1.469s] copying yolo_image_subscriber/sub_node.py -> /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber
+[1.469s] running install
+[1.470s] running install_lib
+[1.470s] creating /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber
+[1.470s] copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/warning_script.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber
+[1.470s] copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/__init__.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber
+[1.471s] copying /root/Image_transport/build/yolo_image_subscriber/build/lib/yolo_image_subscriber/sub_node.py -> /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber
+[1.471s] byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/warning_script.py to warning_script.cpython-38.pyc
+[1.472s] byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/__init__.py to __init__.cpython-38.pyc
+[1.472s] byte-compiling /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber/sub_node.py to sub_node.cpython-38.pyc
+[1.474s] running install_egg_info
+[1.477s] Copying ../../build/yolo_image_subscriber/yolo_image_subscriber.egg-info to /root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages/yolo_image_subscriber-0.0.0-py3.8.egg-info
+[1.478s] running install_scripts
+[1.503s] Installing sub_node script to /root/Image_transport/install/yolo_image_subscriber/lib/yolo_image_subscriber
+[1.503s] writing list of installed files to '/root/Image_transport/build/yolo_image_subscriber/install.log'
+[1.536s] Invoked command in '/root/Image_transport/src/yolo_image_subscriber' returned '0': PYTHONPATH=/root/Image_transport/build/yolo_image_subscriber/prefix_override:/usr/local/lib/python3.8/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Image_transport/install/yolo_image_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yolo_image_subscriber build --build-base /root/Image_transport/build/yolo_image_subscriber/build install --record /root/Image_transport/build/yolo_image_subscriber/install.log --install-scripts $base/lib/yolo_image_subscriber --single-version-externally-managed

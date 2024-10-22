@@ -1,8 +1,8 @@
-# Install script for directory: /home/momo/image_transport/src/image_publisher_subscriber
+# Install script for directory: /root/Image_transport/src/image_publisher_subscriber
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/momo/image_transport/install/image_publisher_subscriber")
+  set(CMAKE_INSTALL_PREFIX "/root/Image_transport/install/image_publisher_subscriber")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/pub_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber" TYPE EXECUTABLE FILES "/home/momo/image_transport/build/image_publisher_subscriber/pub_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber" TYPE EXECUTABLE FILES "/root/Image_transport/build/image_publisher_subscriber/pub_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/pub_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/pub_node")
     file(RPATH_CHANGE
@@ -58,31 +58,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber" TYPE EXECUTABLE FILES "/home/momo/image_transport/build/image_publisher_subscriber/sub_node")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node"
-         OLD_RPATH "/opt/ros/foxy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_publisher_subscriber/sub_node")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_publisher_subscriber")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_publisher_subscriber")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber/environment" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber/environment" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -98,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber/environment" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber/environment" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/packages/image_publisher_subscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_index/share/ament_index/resource_index/packages/image_publisher_subscriber")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber/cmake" TYPE FILE FILES
-    "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_core/image_publisher_subscriberConfig.cmake"
-    "/home/momo/image_transport/build/image_publisher_subscriber/ament_cmake_core/image_publisher_subscriberConfig-version.cmake"
+    "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_core/image_publisher_subscriberConfig.cmake"
+    "/root/Image_transport/build/image_publisher_subscriber/ament_cmake_core/image_publisher_subscriberConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/home/momo/image_transport/src/image_publisher_subscriber/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_publisher_subscriber" TYPE FILE FILES "/root/Image_transport/src/image_publisher_subscriber/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -144,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/momo/image_transport/build/image_publisher_subscriber/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Image_transport/build/image_publisher_subscriber/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

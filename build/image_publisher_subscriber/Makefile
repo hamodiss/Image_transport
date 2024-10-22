@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/momo/image_transport/src/image_publisher_subscriber
+CMAKE_SOURCE_DIR = /root/Image_transport/src/image_publisher_subscriber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/momo/image_transport/build/image_publisher_subscriber
+CMAKE_BINARY_DIR = /root/Image_transport/build/image_publisher_subscriber
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/momo/image_transport/build/image_publisher_subscriber/CMakeFiles /home/momo/image_transport/build/image_publisher_subscriber/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Image_transport/build/image_publisher_subscriber/CMakeFiles /root/Image_transport/build/image_publisher_subscriber/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/momo/image_transport/build/image_publisher_subscriber/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Image_transport/build/image_publisher_subscriber/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,19 +166,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named sub_node
-
-# Build rule for target.
-sub_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sub_node
-.PHONY : sub_node
-
-# fast build rule for target.
-sub_node/fast:
-	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/build
-.PHONY : sub_node/fast
 
 #=============================================================================
 # Target rules for targets named pub_node
@@ -246,33 +233,6 @@ src/pub_node.cpp.s:
 	$(MAKE) -f CMakeFiles/pub_node.dir/build.make CMakeFiles/pub_node.dir/src/pub_node.cpp.s
 .PHONY : src/pub_node.cpp.s
 
-src/sub_node.o: src/sub_node.cpp.o
-
-.PHONY : src/sub_node.o
-
-# target to build an object file
-src/sub_node.cpp.o:
-	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/sub_node.cpp.o
-.PHONY : src/sub_node.cpp.o
-
-src/sub_node.i: src/sub_node.cpp.i
-
-.PHONY : src/sub_node.i
-
-# target to preprocess a source file
-src/sub_node.cpp.i:
-	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/sub_node.cpp.i
-.PHONY : src/sub_node.cpp.i
-
-src/sub_node.s: src/sub_node.cpp.s
-
-.PHONY : src/sub_node.s
-
-# target to generate assembly for a file
-src/sub_node.cpp.s:
-	$(MAKE) -f CMakeFiles/sub_node.dir/build.make CMakeFiles/sub_node.dir/src/sub_node.cpp.s
-.PHONY : src/sub_node.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,7 +245,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... sub_node"
 	@echo "... install/local"
 	@echo "... pub_node"
 	@echo "... image_publisher_subscriber_uninstall"
@@ -293,9 +252,6 @@ help:
 	@echo "... src/pub_node.o"
 	@echo "... src/pub_node.i"
 	@echo "... src/pub_node.s"
-	@echo "... src/sub_node.o"
-	@echo "... src/sub_node.i"
-	@echo "... src/sub_node.s"
 .PHONY : help
 
 
