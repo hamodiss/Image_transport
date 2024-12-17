@@ -1,4 +1,4 @@
-# Bil subscriber/process/find zon/detect obstacles by Mohamad Shommo
+# maked by Mohamad Hamdi Alhaji Shommo
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
